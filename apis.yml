@@ -41,6 +41,8 @@ apis:
       - type: x-api-endpoint
         url: https://datamillnorth.org/api/3/action/status_show
 common:
+  - type: DomainSecurity
+    url: security/datamillnorth-org-domain-security.yml
   - type: Website
     url: https://datamillnorth.org
   - type: Documentation
